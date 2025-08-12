@@ -1,11 +1,4 @@
-没问题！下面是一份“纯基座”初始配置：
-- 只包含你要的 6 个分组：🚀 默认代理、♻️ 自动选择、🧠 AI、🐠 漏网之鱼、GLOBAL、🎯 全球直连
-- 已补齐透明代理必需的入站：redirect-in(7890)、tproxy-in(7891)、tun-in(接口 nikki)
-- 不集成任何节点，方便后续订阅“仅导入节点”
 
-贴上即用的 JSON：
-
-```json
 {
   "dns": {
     "servers": [
@@ -97,4 +90,5 @@
   "log": {"disabled": false, "level": "info", "timestamp": true}
 }
 ```
+
 
